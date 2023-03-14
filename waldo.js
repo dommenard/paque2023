@@ -21,6 +21,10 @@ function exportScreenshot(){
 	});*/
 	
 	html2canvas(document.querySelector('body'),{useCORS: true,allowTaint: true, foreignObjectRendering: true, crossOrigin : 'anonymous'}).then(function(canvas) {
+		/*var data = canvas.toDataURL();
+		var img = document.createElement('img');
+		img.setAttribute('download','myImage.png');
+		img src = 'data:image/png;base64,' + data;*/
         saveAs(canvas.toDataURL(), 'solution.png');
     });
 }
