@@ -54,3 +54,24 @@ button{
 canvas{
 	display:none;
 }
+
+ul{
+margin:auto;
+display:block;
+font-size:20px;
+max-width: 200px;
+}
+
+.listContainer{
+padding: 10px;
+border:1px solid black;
+max-width: 250px;
+margin:auto;
+display:block;
+background-color:white;
+box-shadow:1px 1px 10px black;
+cursor:pointer;
+position: absolute;
+left: 10px;
+top: 10px;
+}

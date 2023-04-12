@@ -8,6 +8,8 @@ $( document ).ready(function() {
 	$("#exportButton").click(function(e) {
 		exportScreenshot();
 	});
+	
+	$( ".listContainer" ).draggable();
 });
 
 function removeCircle(el){
